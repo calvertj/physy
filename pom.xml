@@ -8,4 +8,6 @@
 	<groupId>jctd.physics</groupId>
 	<artifactId>physy</artifactId>
 	<version>0.1</version>
+
+	<packaging>jar</packaging>
 </project>
