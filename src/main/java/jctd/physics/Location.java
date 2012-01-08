@@ -20,6 +20,9 @@ public class Location {
 		return new Vector(x - base.x, y - base.y);
 	}
 	
+	public Vector asVector() { return new Vector(x, y); }
+	public void set(Vector v) { this.x = v.x(); this.y = v.y(); }
+	
 	public int hashCode() { 
 		int code = 17;
 		long bits = Double.doubleToLongBits(x);

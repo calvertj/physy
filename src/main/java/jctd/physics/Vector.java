@@ -18,6 +18,18 @@ public class Vector {
 		return new Vector(x + v.x, y + v.y);
 	}
 	
+	public Vector subtract(Vector v) { 
+		return addTo(v.scale(-1.0));
+	}
+	
+	public Vector add(Vector ... vs) { 
+		Vector added = this;
+		for(int i = 0; i < vs.length; i++) { 
+			added = added.addTo(vs[i]);
+		}
+		return added;
+	}
+	
 	public Vector scale(double s) { 
 		return new Vector(x*s, y*s);
 	}
