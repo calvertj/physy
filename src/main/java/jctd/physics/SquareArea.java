@@ -1,4 +1,4 @@
-package jdtd.physics;
+package jctd.physics;
 
 public class SquareArea extends Area {
 	public static double maxDim(Area a) { return Math.max(a.width(), a.height()); }

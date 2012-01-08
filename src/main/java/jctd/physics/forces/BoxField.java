@@ -1,6 +1,6 @@
-package jdtd.physics.forces;
+package jctd.physics.forces;
 
-import jdtd.physics.Area;
+import jctd.physics.Area;
 
 public class BoxField extends FieldSum { 
 	

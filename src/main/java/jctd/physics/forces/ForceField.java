@@ -1,11 +1,11 @@
-package jdtd.physics.forces;
+package jctd.physics.forces;
 
 import java.util.Random;
 
-import jdtd.physics.DynamicBody;
-import jdtd.physics.Location;
-import jdtd.physics.Predicate;
-import jdtd.physics.Vector;
+import jctd.physics.DynamicBody;
+import jctd.physics.Location;
+import jctd.physics.Predicate;
+import jctd.physics.Vector;
 
 public interface ForceField {
 	public abstract Vector calculateForce(DynamicBody body);

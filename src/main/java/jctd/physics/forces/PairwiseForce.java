@@ -1,7 +1,7 @@
-package jdtd.physics.forces;
+package jctd.physics.forces;
 
-import jdtd.physics.DynamicBody;
-import jdtd.physics.Vector;
+import jctd.physics.DynamicBody;
+import jctd.physics.Vector;
 
 public interface PairwiseForce {
 	public Vector forceApplied(DynamicBody target, DynamicBody source);

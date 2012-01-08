@@ -1,8 +1,8 @@
-package jdtd.physics.fdl;
+package jctd;
 
-import jdtd.physics.DynamicBody;
-import jdtd.physics.Vector;
-import jdtd.physics.forces.PairwiseForce;
+import jctd.physics.DynamicBody;
+import jctd.physics.Vector;
+import jctd.physics.forces.PairwiseForce;
 
 public class InverseSquareForce implements PairwiseForce {
 	

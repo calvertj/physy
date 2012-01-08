@@ -1,4 +1,4 @@
-package jdtd.physics;
+package jctd.physics;
 
 import java.util.*;
 import java.awt.*;

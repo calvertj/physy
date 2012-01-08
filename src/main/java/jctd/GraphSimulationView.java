@@ -1,11 +1,19 @@
-package jdtd.physics.fdl;
+package jctd;
 
-import java.util.*;
-import java.awt.*;
-import javax.swing.*;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.RenderingHints;
 
-import jdtd.physics.*;
-import jdtd.physics.Vector;
+import javax.swing.JPanel;
+
+import jctd.physics.Area;
+import jctd.physics.DynamicBody;
+import jctd.physics.DynamicHistory;
+import jctd.physics.Location;
+import jctd.physics.Simulation;
+import jctd.physics.SquareArea;
+import jctd.physics.Vector;
 
 public class GraphSimulationView extends JPanel {
 	

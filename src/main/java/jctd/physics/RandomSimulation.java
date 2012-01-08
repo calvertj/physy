@@ -1,11 +1,11 @@
-package jdtd.physics;
+package jctd.physics;
 
 import javax.swing.*;
 
-import jdtd.physics.forces.AddingFieldGenerator;
-import jdtd.physics.forces.BarnesHutFieldGenerator;
-import jdtd.physics.forces.ForceFieldGenerator;
-import jdtd.physics.forces.Gravity;
+import jctd.physics.forces.AddingFieldGenerator;
+import jctd.physics.forces.BarnesHutFieldGenerator;
+import jctd.physics.forces.ForceFieldGenerator;
+import jctd.physics.forces.Gravity;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;

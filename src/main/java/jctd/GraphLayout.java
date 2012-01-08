@@ -1,16 +1,30 @@
-package jdtd.physics.fdl;
+package jctd;
 
-import javax.swing.*;
-
-import jdtd.physics.*;
-import jdtd.physics.Vector;
-import jdtd.physics.forces.*;
-
-import java.awt.*;
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Random;
+
+import javax.swing.AbstractAction;
+import javax.swing.Action;
+import javax.swing.JFrame;
+
+import jctd.physics.Area;
+import jctd.physics.DynamicBody;
+import jctd.physics.Location;
+import jctd.physics.Simulation;
+import jctd.physics.Vector;
+import jctd.physics.forces.AddingFieldGenerator;
+import jctd.physics.forces.BarnesHutFieldGenerator;
+import jctd.physics.forces.ForceFieldGenerator;
+import jctd.physics.forces.Gravity;
+import jctd.physics.forces.HookeForce;
+import jctd.physics.forces.PairwiseForce;
+import jctd.physics.forces.StaticFieldGenerator;
 
 public class GraphLayout extends JFrame {
 	

@@ -1,8 +1,8 @@
-package jdtd.physics.fdl;
+package jctd;
 
 import java.util.*;
 
-import jdtd.physics.EmptyIterator;
+import jctd.physics.EmptyIterator;
 
 public class Graph implements Iterable<Graph.Edge> {
 

@@ -1,12 +1,12 @@
-package jdtd.physics.forces;
+package jctd.physics.forces;
 
 import java.util.*;
 
-import jdtd.physics.Area;
-import jdtd.physics.DynamicBody;
-import jdtd.physics.LocatedBody;
-import jdtd.physics.Location;
-import jdtd.physics.Vector;
+import jctd.physics.Area;
+import jctd.physics.DynamicBody;
+import jctd.physics.LocatedBody;
+import jctd.physics.Location;
+import jctd.physics.Vector;
 
 public class BarnesHut implements ForceField {
 	

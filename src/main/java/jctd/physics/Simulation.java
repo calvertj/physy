@@ -1,9 +1,9 @@
-package jdtd.physics;
+package jctd.physics;
 
 import java.util.*;
 
-import jdtd.physics.forces.ForceField;
-import jdtd.physics.forces.ForceFieldGenerator;
+import jctd.physics.forces.ForceField;
+import jctd.physics.forces.ForceFieldGenerator;
 
 public class Simulation implements NamedBodies<DynamicBody> {
 

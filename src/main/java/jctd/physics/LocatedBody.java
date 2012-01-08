@@ -1,4 +1,4 @@
-package jdtd.physics;
+package jctd.physics;
 
 public class LocatedBody extends Body { 
 	

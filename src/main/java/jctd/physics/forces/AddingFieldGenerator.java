@@ -1,6 +1,6 @@
-package jdtd.physics.forces;
+package jctd.physics.forces;
 
-import jdtd.physics.DynamicBody;
+import jctd.physics.DynamicBody;
 
 public class AddingFieldGenerator implements ForceFieldGenerator {
 	

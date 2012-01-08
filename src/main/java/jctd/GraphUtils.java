@@ -1,11 +1,11 @@
-package jdtd.physics.fdl;
+package jctd;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.*;
 
-import jdtd.physics.Body;
+import jctd.physics.Body;
 
 public class GraphUtils {
 	

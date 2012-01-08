@@ -1,13 +1,13 @@
-package jdtd.physics.fdl;
+package jctd;
 
 import java.util.Map;
 import java.util.TreeMap;
 
-import jdtd.physics.DynamicBody;
-import jdtd.physics.NamedBodies;
-import jdtd.physics.Vector;
-import jdtd.physics.forces.ForceField;
-import jdtd.physics.forces.PairwiseForce;
+import jctd.physics.DynamicBody;
+import jctd.physics.NamedBodies;
+import jctd.physics.Vector;
+import jctd.physics.forces.ForceField;
+import jctd.physics.forces.PairwiseForce;
 
 public class GraphEdgeForceField implements ForceField {
 	
