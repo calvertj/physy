@@ -1,4 +1,4 @@
-package jctd;
+package jctd.physics.fdl;
 
 import java.util.Map;
 import java.util.TreeMap;

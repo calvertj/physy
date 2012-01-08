@@ -1,4 +1,4 @@
-package jctd;
+package jctd.physics.fdl;
 
 import java.awt.Color;
 import java.awt.Graphics;

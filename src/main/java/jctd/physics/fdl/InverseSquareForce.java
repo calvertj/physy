@@ -1,4 +1,4 @@
-package jctd;
+package jctd.physics.fdl;
 
 import jctd.physics.DynamicBody;
 import jctd.physics.Vector;

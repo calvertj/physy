@@ -1,4 +1,4 @@
-package jctd;
+package jctd.physics.fdl;
 
 import java.awt.BorderLayout;
 import java.awt.Container;
