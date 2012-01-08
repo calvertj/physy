@@ -19,7 +19,11 @@ public class LocatedBody extends Body {
 	
 	public Location location() { return location; }
 	
+	public void setLocation(Location loc) { 
+		location = loc;
+	}
+	
 	public void updateLocation(Vector v) { 
-		location = location.translate(v);
+		setLocation(location.translate(v));
 	}
 }

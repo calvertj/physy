@@ -12,11 +12,14 @@ public class Simulation implements NamedBodies<DynamicBody> {
 	private HashMap<DynamicBody,DynamicHistory> histories;
 	private ForceFieldGenerator fieldGenerator;
 	
+	private Integrator integrator;
+	
 	public Simulation(ForceFieldGenerator ffg, Iterable<DynamicBody> bs) {
 		fieldGenerator = ffg;
 		histories = new HashMap<DynamicBody,DynamicHistory>();
 		bodies = new ArrayList<DynamicBody>();
 		namedBodies = new TreeMap<String,DynamicBody>();
+		integrator = new BasicIntegrator();
 		
 		for(DynamicBody b : bs) {
 			bodies.add(b);
@@ -34,8 +37,7 @@ public class Simulation implements NamedBodies<DynamicBody> {
 		
 		for(DynamicBody body : bodies) { 
 			Vector F = field.calculateForce(body);
-			Vector a = F.scale(1.0 / body.mass());
-			body.updateVelocity(a);
+			integrator.update(body, F);
 			histories.get(body).updateLocation(body.location());
 		}
 	}
