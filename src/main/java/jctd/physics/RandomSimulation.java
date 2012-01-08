@@ -4,8 +4,10 @@ import javax.swing.*;
 
 import jctd.physics.forces.AddingFieldGenerator;
 import jctd.physics.forces.BarnesHutFieldGenerator;
+import jctd.physics.forces.BoxField;
 import jctd.physics.forces.ForceFieldGenerator;
 import jctd.physics.forces.Gravity;
+import jctd.physics.forces.StaticFieldGenerator;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -52,12 +54,11 @@ public class RandomSimulation extends JFrame {
 		ForceFieldGenerator ffg = new AddingFieldGenerator(
 				//new StaticFieldGenerator(new Floor(bb.y2(), 10.0, 5.0))
 				//new BarnesHutFieldGenerator(new Gravity(-0.1))
-				new BarnesHutFieldGenerator(new Gravity(100.0))
+				new BarnesHutFieldGenerator(new Gravity(1.0))
 				
 				//,new StaticFieldGenerator(new BrownianField(0.1))
 				//,new StaticFieldGenerator(new BoxField(bb, 1.0))
 				//,new StaticFieldGenerator(new FrictionField(0.1))
-				//,new StaticFieldGenerator(new GravityWell(bb.center(), 10000.0))
 		);
 		
 		sim = new Simulation(ffg, bodies);

@@ -16,7 +16,7 @@ public class SimulationView extends JPanel {
 		sim = s;
 		baseArea = new SquareArea(sim.boundingBox());
 		scale = 1.0;
-		showDynamics = true;
+		showDynamics = false;
 	}
 	
 	private void calculateScale() { 
