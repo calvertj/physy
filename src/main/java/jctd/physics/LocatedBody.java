@@ -22,8 +22,4 @@ public class LocatedBody extends Body {
 	public void setLocation(Location loc) { 
 		location = loc;
 	}
-	
-	public void updateLocation(Vector v) { 
-		setLocation(location.translate(v));
-	}
 }

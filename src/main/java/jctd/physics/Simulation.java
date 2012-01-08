@@ -19,7 +19,7 @@ public class Simulation implements NamedBodies<DynamicBody> {
 		histories = new HashMap<DynamicBody,DynamicHistory>();
 		bodies = new ArrayList<DynamicBody>();
 		namedBodies = new TreeMap<String,DynamicBody>();
-		integrator = new BasicIntegrator();
+		integrator = new SimpleIntegrator();
 		
 		for(DynamicBody b : bs) {
 			bodies.add(b);

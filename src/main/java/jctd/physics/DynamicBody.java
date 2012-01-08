@@ -23,12 +23,6 @@ public class DynamicBody extends LocatedBody {
 	
 	public void setAcceleration(Vector a) { 
 		acceleration = a;
-		updateVelocity(acceleration);
-	}
-	
-	public void updateVelocity(Vector a) { 
-		setVelocity(velocity.addTo(a));
-		updateLocation(velocity);
 	}
 	
 	public void setVelocity(Vector v) { 
